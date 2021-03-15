@@ -1,1 +1,1 @@
-https://Fedorkich.github.io/rsschool-cv/
+https://Fedorkich.github.io/WildLife/wildlife
