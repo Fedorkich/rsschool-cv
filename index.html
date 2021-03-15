@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Cv</title>
+</head>
+<body>
+  
+    <aside class="foto">
+        <img class="photo" src="my_foto1.png" alt="MyPhoto">
+    </aside>
+
+
+    <section class="name">
+        <h1 class="myName">Kichyhin Fiodar</h1>
+         <p class="profession">Future Front-End Developer</p>
+    </section>
+
+    <article class="aboutme">
+        <h2 >About me</h2>
+        <p class="me">
+            I am a student of <span>Belarusian State University of Informatics and Radioelectronics</span>, 
+            speciality automated data processing systems. <br/> I want to become a front-end developer. 
+            This field is interesting for me. I want to learn different things.<br/> Now I am studying 
+            on course <span>“Front-end/JS”</span> from Rs School.<br/> I studied some Courses: <span>htmlacademy, WAYUP, 
+            learnjs</span> - myself.
+        </p>
+    </article>
+
+    <section class="wrapper">
+        <h2 class="cont">Contacts:</h2>
+       <div class="container">
+        <ul class="contact">
+            <li>Phone: +375 (44) 541-80-09</li>
+            <li>Email: kichfed20@gmail.com</li>
+            <li><a href="https://vk.com/id157003469" target="_blanc">Vkontacte</a></li>
+        </ul>
+        </div>
+    </section>
+
+    <section class="wrapper skills">
+        <h2 class="cont">Skills</h2>
+        <div class="container">
+        <ul class="skill"> 
+            <li>C++</li>
+            <li>Html/Css</li>
+            <li>Mobile development on java</li>
+            <li>Sql</li>
+        </ul>
+    </div>
+    </section>
+    <section class="example">
+        <h2>Example of code </h2>
+        <div class="container">
+        <pre class="code">
+             <code> 
+                void InsertSort(int *mas, int n) {
+                for (i=0; i< n-1; i++) {
+                key= i+1; temp= mas[key]; 
+                for (j= i+1; j> 0; j--) { 
+                    if (temp< mas[j-1]) { 
+                    mas[j]=mas[j-1]; key=j-1; 
+                    }
+                 } 
+                 mas[key]=temp;
+                 } 
+                 cout << endl << "Результирующий массив: ";
+                 for (i=0; i< n; i++) //вывод массива 
+                    cout<< mas[i] <<" ";
+                 }
+                 </code> 
+        </pre>
+        </div>
+    </section>
+
+</body>
+</html>
